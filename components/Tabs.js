@@ -31,8 +31,8 @@ axios
     });
   })
   .catch((err) => {
-    console.log("something happened");
+    console.log("error");
   })
   .then(() => {
-    console.log("yahoo");
+    console.log("got it");
   });
