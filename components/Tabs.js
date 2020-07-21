@@ -30,7 +30,7 @@ axios
       entryPoint.appendChild(newTopicCard);
     });
   })
-  .catch((err) => {
+  .catch(() => {
     console.log("error");
   })
   .then(() => {
